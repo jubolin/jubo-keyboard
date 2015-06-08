@@ -1,26 +1,27 @@
 {	
-	"name": "jubo:jubo-keyboard",
-	"version": "0.1.0",
-	"main": "lib/jubo-keyboard.js",
-	"description": "JuBo thing adaptor for keyboard",
-	"homepage": "https://jubolin.github.com",
-	"bugs": "https://github.com/jubolin/jubo-keyboard/issues",
+  "name": "jubo-keyboard",
+  "version": "0.1.0",
+  "main": "lib/jubo-keyboard.js",
+  "description": "JuBo thing adaptor for keyboard",
+  "homepage": "https://jubolin.github.com",
+  "bugs": "https://github.com/jubolin/jubo-keyboard/issues",
 
-	"author": "The Jubo Development Group(JDG) <jubolin@126.com",
+  "author": "The Jubo Development Group(JDG) <jubolin@126.com",
 
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/jubolin/jubo-keyboard.git"
-	},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jubolin/jubo-keyboard.git"
+  },
 
-	"license": "MIT",
+  "license": "MIT",
 
-	"devDependencies": {
-		"jshint": "~2.4.4"
-	},
+  "devDependencies": {
+    "jshint": "~2.4.4"
+  },
 
-	"dependencies": {
-		"cylon-keyboard": "~0.14.0",
-		"ddp": "~0.11.0"
-	}
+  "dependencies": {
+    "cylon": "~1.0.0",
+    "cylon-keyboard": "~0.14.0",
+    "ddp": "~0.11.0"
+  }
 }
